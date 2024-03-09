@@ -1,4 +1,4 @@
-package com.meennujaiswal.java8;
+package com.meennujaiswal.javaproblems.java8;
 import java.util.List;
 import java.util.function.Consumer;
 
@@ -18,7 +18,7 @@ public class Square {
         numbers.forEach(new Consumer() {
         	@Override
         	public void accept(Object number) {
-                number = Integer.parseInt(number) * number;
+                number = (int)number * (int)number;
             }
         });
     }

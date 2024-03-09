@@ -1,4 +1,4 @@
-package com.meennujaiswal.java8;
+package com.meennujaiswal.javaproblems.java8;
 
 import java.util.function.Consumer;
 
